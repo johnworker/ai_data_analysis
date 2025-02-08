@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')  # 使用非 GUI 的後端
 
 def plot_histogram(df, column):
     """繪製直方圖"""
