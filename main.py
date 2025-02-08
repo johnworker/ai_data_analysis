@@ -8,7 +8,7 @@ def main():
     
     if df is not None:
         df = clean_data(df)
-        plot_histogram(df, "數據欄位名稱")  # 替換成適當欄位名稱
+        plot_histogram(df, "age")  # 替換成適當欄位名稱
 
 if __name__ == "__main__":
     main()
